@@ -1,4 +1,4 @@
-## React app to view Top Headlines agggregated by ([NewsAPI](https://newsapi.org/)
+## React app to view Top Headlines agggregated by [NewsAPI](https://newsapi.org/)
 
 ## TODOS
 

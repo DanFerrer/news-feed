@@ -1,1 +1,7 @@
-React app to view Top Headlines agggregated by (News API)
+## React app to view Top Headlines agggregated by ([NewsAPI](https://newsapi.org/)
+
+## TODOS
+
+- [ ] Lazy load each article card with intersection observer
+- [ ] Unit tests
+- [ ] Animation and Loading components

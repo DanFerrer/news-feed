@@ -5,3 +5,7 @@
 - [ ] Lazy load each article card with intersection observer
 - [ ] Unit tests
 - [ ] Animation and Loading components
+- [ ] Hover/Visted States
+- [ ] Caching/Saving articles for offline reading
+- [ ] User accounts
+- [ ] Mobile Styling

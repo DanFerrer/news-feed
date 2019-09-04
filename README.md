@@ -8,4 +8,4 @@
 - [ ] Hover/Visted States
 - [ ] Caching/Saving articles for offline reading
 - [ ] User accounts
-- [ ] Mobile Styling
+- [x] Mobile Styling

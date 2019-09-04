@@ -3,7 +3,7 @@ import ArticleCard from './ArticleCard';
 
 export default function ArticleList({ articles }) {
 	return (
-		<div className="container">
+		<div className="articles">
 			{articles.map((article, index) => {
 				return (
 					<ArticleCard

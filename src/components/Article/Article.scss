@@ -1,34 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-.container {
+.articles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 
-  .card {
+  .article-card {
     background: #ffffff;
-    flex: 0 1 calc(25% - 1em);
-    margin-bottom: 1em;
+    margin: 1%;
+    flex: 1 auto;
+    max-width: 100%;
 
-    .card__link {
+    @media screen and (min-width: 480px) {
+      flex: 1 48%;
+      max-width: 48%;
+    }
+
+    @media screen and (min-width: 768px) {
+      flex: 1 31%;
+      max-width: 31%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      flex: 1 23%;
+      max-width: 23%;
+    }
+
+    @media screen and (min-width: 1281px) {
+      flex: 1 18%;
+      max-width: 18%;
+    }
+
+    .article-card__link {
       color: #222222;
       text-decoration: none;
 
-      .card__thumbnail {
-        display: block;
-        border: 0;
-        width: 100%;
-        height: auto;
+      .article-card__thumbnail img {
+        max-width: 100%;
       }
 
-      .card__content {
-        padding: 0.5em;
-
+      .article-card__content {
+        margin: 2%;
         h2 {
           font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-          margin-top: 0;
-          margin-bottom: 0.5em;
           font-weight: bold;
         }
 

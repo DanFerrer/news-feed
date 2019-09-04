@@ -9,3 +9,4 @@
 - [ ] Caching/Saving articles for offline reading
 - [ ] User accounts
 - [x] Mobile Styling
+- [ ] Calculate Read Time

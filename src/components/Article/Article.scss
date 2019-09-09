@@ -2,34 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .articles {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 24px;
 
   .article-card {
     background: #ffffff;
-    margin: 1%;
-    flex: 1 auto;
-    max-width: 100%;
-
-    @media screen and (min-width: 480px) {
-      flex: 1 48%;
-      max-width: 48%;
-    }
-
-    @media screen and (min-width: 768px) {
-      flex: 1 31%;
-      max-width: 31%;
-    }
-
-    @media screen and (min-width: 1024px) {
-      flex: 1 23%;
-      max-width: 23%;
-    }
-
-    @media screen and (min-width: 1281px) {
-      flex: 1 18%;
-      max-width: 18%;
-    }
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 
     .article-card__link {
       color: #222222;
@@ -37,20 +17,12 @@
 
       .article-card__thumbnail img {
         max-width: 100%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
       }
 
       .article-card__content {
-        margin: 2%;
-        h2 {
-          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-          font-weight: bold;
-        }
-
-        p {
-          font-size: 80%;
-          margin-bottom: 1em;
-          color: #898989;
-        }
+        padding: 16px;
       }
     }
   }

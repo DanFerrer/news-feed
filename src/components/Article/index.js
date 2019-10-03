@@ -1,5 +1,5 @@
 import React from 'react';
-import ArticleList from './ArticleList';
+import ArticleContainer from './ArticleContainer';
 import './Article.scss';
 
 import { getTopHeadlines } from '../../utils/newsapi';
@@ -34,7 +34,7 @@ export default class Article extends React.Component {
 
 	render() {
 		return (
-			<ArticleList articles={this.state.articles}/>
+			<ArticleContainer articles={this.state.articles}/>
 		);
 	}
 }

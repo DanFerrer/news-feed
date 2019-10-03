@@ -1,9 +1,9 @@
 import React from 'react';
 import ArticleCard from './ArticleCard';
 
-export default function ArticleList({ articles }) {
+const ArticleContainer = ({ articles }) => {
 	return (
-		<div className="articles">
+		<section className="articles">
 			{articles.map((article, index) => {
 				return (
 					<ArticleCard
@@ -17,8 +17,10 @@ export default function ArticleList({ articles }) {
 					/>
 				);
 			})}
-		</div>
+		</section>
 	);
-}
+};
+
+export default ArticleContainer;
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ArticleCard ({ title, image, description, href, publishedAt, source }) {
+const ArticleCard = ({ title, image, description, href, publishedAt, source }) => {
 	return (
 		<article className="article-card">
 			<a className="article-card__link" href={href}>
@@ -15,4 +15,6 @@ export default function ArticleCard ({ title, image, description, href, publishe
 			</a>
 		</article>
 	);
-}
+};
+
+export default ArticleCard;
